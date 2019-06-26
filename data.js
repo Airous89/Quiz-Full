@@ -36,7 +36,7 @@ var STORE = [
 
 },
 {
-    question: 'The spirtuall home of Techno is?',
+    question: 'The spirtual home of Techno is?',
         answers: ['Berlin','Hamburg','Chicago','New York',],
         correctAnswer: 'Berlin',
 
