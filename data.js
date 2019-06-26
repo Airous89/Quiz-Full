@@ -169,11 +169,11 @@ function generateQuestion () {
   //when quiz is over this is the html for the page
   function renderResults () {
     if (score >= 8) {
-      $('.questionAnswerForm').html(`<div class="results correctFeedback"><h3>Sweet!</h3><img src="" alt="turntable icon"/><p>You got ${score} / 10</p><p>You know House Music</p><button class="restartButton">Restart Quiz</button></div>`);
+      $('.questionAnswerForm').html(`<div class="results correctFeedback"><h3>Sweet!</h3><img src="https://img.icons8.com/ios/100/000000/dj.png" alt="turntable icon"/><p>You got ${score} / 10</p><p>You know House Music!</p><button class="restartButton">Restart Quiz</button></div>`);
     } else if (score < 8 && score >= 5) {
-      $('.questionAnswerForm').html(`<div class="results correctFeedback"><h3>Almost there!</h3><img src="" alt="headphone icon"/><p>You got ${score} / 10</p><p>A few more Track to play and you should be ok!</p><button class="restartButton">Restart Quiz</button></div>`);
+      $('.questionAnswerForm').html(`<div class="results correctFeedback"><h3>Almost there!</h3><img src="https://img.icons8.com/ios/100/000000/listening.png" alt="headphone icon"/><p>You got ${score} / 10</p><p>A few more Track to play and you should be ok!</p><button class="restartButton">Restart Quiz</button></div>`);
     } else {
-      $('.questionAnswerForm').html(`<div class="results correctFeedback"><h3>You need a refresher</h3><img src="" alt=""/><p>You got ${score} / 10</p><p>Try again!</p><button class="restartButton">Restart Quiz</button></div>`);
+      $('.questionAnswerForm').html(`<div class="results correctFeedback"><h3>You need a refresher</h3><img src="https://img.icons8.com/ios/50/000000/easy-listening.png" alt="listening leaf"/><p>You got ${score} / 10</p><p>Try again!</p><button class="restartButton">Restart Quiz</button></div>`);
     }
   }
   
